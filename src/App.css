@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+.App {
+  text-align: center;
+}
+
+.main{
+  width: 100%;
+  padding: 40px 0; /*40px de top e bottom, e 0 dos dois lados*/
+  min-height: 400px;
+  background-image: url(matuecarecamemo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.center{
+  max-width: 960px;
+  margin: 0 2%;
+  margin: auto;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu h3{
+  color: #fff;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.form{
+  width: 100%;
+  margin-top: 50px;
+}
+
+form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form h2{
+  color: #fff;
+}
+
+.form input[type="text"]{
+  width: 400px;
+  padding: 8px;
+  margin: 3px;
+}
+
+.conteudo{
+  width: 100%;
+}
+
+.textos_conteudo{
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
